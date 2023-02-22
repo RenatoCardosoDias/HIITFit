@@ -17,11 +17,13 @@ struct ContentView: View {
             }
             Text("Exercicio 2")
         } //end TabView
-        .tabViewStyle(PageTabViewStyle())
-        .indexViewStyle(
-            PageIndexViewStyle(backgroundDisplayMode: .always))
-    }
-}
+
+        .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
+//        .tabViewStyle(PageTabViewStyle())
+//        .indexViewStyle(
+//            PageIndexViewStyle(backgroundDisplayMode: .always))
+    } //end var body
+} //end struct ContentView
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
