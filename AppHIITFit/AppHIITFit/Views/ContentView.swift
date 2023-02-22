@@ -11,7 +11,10 @@ struct ContentView: View {
     var body: some View {
         TabView {
             WelcomeView() //was TExt("Welcome")
-            ExerciseView() //was Text("Exercises 1")
+//            ExerciseView(index: 0) //was Text("Exercises 1")
+            ForEach(0 ..< 4) { index in
+                ExerciseView(index: index)
+            }
             Text("Exercicio 2")
         } //end TabView
         .tabViewStyle(PageTabViewStyle())
