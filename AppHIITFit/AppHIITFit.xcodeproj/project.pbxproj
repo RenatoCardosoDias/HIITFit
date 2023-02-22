@@ -56,10 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				8879146229A5957700B6EE6C /* AppHIITFitApp.swift */,
-				8879146429A5957700B6EE6C /* ContentView.swift */,
 				8879147429A59E0B00B6EE6C /* Views */,
-				8879147029A59DA800B6EE6C /* WelcomeView.swift */,
-				8879147229A59DC000B6EE6C /* ExerciseView.swift */,
 				8879146629A5957900B6EE6C /* Assets.xcassets */,
 				8879146829A5957900B6EE6C /* Preview Content */,
 			);
@@ -77,6 +74,9 @@
 		8879147429A59E0B00B6EE6C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8879147229A59DC000B6EE6C /* ExerciseView.swift */,
+				8879147029A59DA800B6EE6C /* WelcomeView.swift */,
+				8879146429A5957700B6EE6C /* ContentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";

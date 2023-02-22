@@ -10,8 +10,8 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
-            Text("Olá")
-            Text("Exercicio 1")
+            WelcomeView() //was TExt("Welcome")
+            ExerciseView() //was Text("Exercises 1")
             Text("Exercicio 2")
         } //end TabView
         .tabViewStyle(PageTabViewStyle())
