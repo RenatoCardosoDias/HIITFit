@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8852A4A829A5A25400A539E5 /* burpee.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8852A4A429A5A25400A539E5 /* burpee.mp4 */; };
+		8852A4A929A5A25400A539E5 /* squat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8852A4A529A5A25400A539E5 /* squat.mp4 */; };
+		8852A4AA29A5A25400A539E5 /* sun-salute.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8852A4A629A5A25400A539E5 /* sun-salute.mp4 */; };
+		8852A4AB29A5A25400A539E5 /* step-up.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8852A4A729A5A25400A539E5 /* step-up.mp4 */; };
 		8879146329A5957700B6EE6C /* AppHIITFitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8879146229A5957700B6EE6C /* AppHIITFitApp.swift */; };
 		8879146529A5957700B6EE6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8879146429A5957700B6EE6C /* ContentView.swift */; };
 		8879146729A5957900B6EE6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8879146629A5957900B6EE6C /* Assets.xcassets */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8852A4A429A5A25400A539E5 /* burpee.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = burpee.mp4; path = ../../../../../../Downloads/burpee.mp4; sourceTree = "<group>"; };
+		8852A4A529A5A25400A539E5 /* squat.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = squat.mp4; path = ../../../../../../Downloads/squat.mp4; sourceTree = "<group>"; };
+		8852A4A629A5A25400A539E5 /* sun-salute.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "sun-salute.mp4"; path = "../../../../../../Downloads/sun-salute.mp4"; sourceTree = "<group>"; };
+		8852A4A729A5A25400A539E5 /* step-up.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "step-up.mp4"; path = "../../../../../../Downloads/step-up.mp4"; sourceTree = "<group>"; };
 		8879145F29A5957700B6EE6C /* AppHIITFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppHIITFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8879146229A5957700B6EE6C /* AppHIITFitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHIITFitApp.swift; sourceTree = "<group>"; };
 		8879146429A5957700B6EE6C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +44,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8852A4A329A5A22200A539E5 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				8852A4A429A5A25400A539E5 /* burpee.mp4 */,
+				8852A4A529A5A25400A539E5 /* squat.mp4 */,
+				8852A4A729A5A25400A539E5 /* step-up.mp4 */,
+				8852A4A629A5A25400A539E5 /* sun-salute.mp4 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
 		8879145629A5957700B6EE6C = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +74,7 @@
 		8879146129A5957700B6EE6C /* AppHIITFit */ = {
 			isa = PBXGroup;
 			children = (
+				8852A4A329A5A22200A539E5 /* Videos */,
 				8879146229A5957700B6EE6C /* AppHIITFitApp.swift */,
 				8879147429A59E0B00B6EE6C /* Views */,
 				8879146629A5957900B6EE6C /* Assets.xcassets */,
@@ -141,6 +161,10 @@
 			files = (
 				8879146A29A5957900B6EE6C /* Preview Assets.xcassets in Resources */,
 				8879146729A5957900B6EE6C /* Assets.xcassets in Resources */,
+				8852A4AB29A5A25400A539E5 /* step-up.mp4 in Resources */,
+				8852A4A929A5A25400A539E5 /* squat.mp4 in Resources */,
+				8852A4AA29A5A25400A539E5 /* sun-salute.mp4 in Resources */,
+				8852A4A829A5A25400A539E5 /* burpee.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +307,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AppHIITFit/Preview Content\"";
+				DEVELOPMENT_TEAM = 2RB6Z32558;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -311,6 +336,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AppHIITFit/Preview Content\"";
+				DEVELOPMENT_TEAM = 2RB6Z32558;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
