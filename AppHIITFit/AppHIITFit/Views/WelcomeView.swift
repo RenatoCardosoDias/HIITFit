@@ -34,9 +34,11 @@ struct WelcomeView: View {
                 Button(action: {} ){
                     Text("Get Started")
                     Image(systemName: "arrow.right.circle")
+//                    Label("Get Started", systemImage: "arrow.right.circle")
                 } //end Button
                 .font(.title2)
                 .padding()
+                .background(RoundedRectangle(cornerRadius: 20).stroke(Color.gray, lineWidth: 2))    
             } //end VStack
         } //end ZStack
     } //end body
