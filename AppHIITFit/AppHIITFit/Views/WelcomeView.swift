@@ -17,13 +17,18 @@ struct WelcomeView: View {
                     .padding(.bottom)
             } //end VStack
             VStack{
-                HStack{
+                HStack (alignment: .bottom){
                     VStack(alignment: .leading){
                         Text("Get fit")
                             .font(.largeTitle)
                         Text("with high intensity interval trainning")
                             .font(.headline)
                     } //end VStack
+                    Image("step-up")
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .frame(width: 240, height: 240)
+                        .clipShape(Circle())
                 } //end HStack
             } //end VStack
         } //end ZStack
