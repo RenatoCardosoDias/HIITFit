@@ -31,10 +31,14 @@ struct ExerciseView: View {
                 } //end fi true
                 Text(Date().addingTimeInterval(interval), style: .timer)
                     .font(.system(size: 90))
-                Text("Start/Done button")
+                Button("Stat/Done") {}
+                    .font(.title3)
+                    .padding()
                 Text("Rating")
-                Text("History Button")
-            }
+                Spacer()
+                Button("History") {}
+                    .padding(.bottom)
+            } //end Vstack
         } //end VStack
     } //end var body
 } //end struct ExerciseView
