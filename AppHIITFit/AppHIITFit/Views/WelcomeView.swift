@@ -25,10 +25,11 @@ struct WelcomeView: View {
                             .font(.headline)
                     } //end VStack
                     Image("step-up")
-                        .resizable()
-                        .aspectRatio(contentMode: .fill)
-                        .frame(width: 240, height: 240)
-                        .clipShape(Circle())
+                        .resizedToFill(width: 240, height: 240)
+//                        .resizable()
+//                        .aspectRatio(contentMode: .fill)
+//                        .frame(width: 240, height: 240)
+//                        .clipShape(Circle())
                 } //end HStack
             } //end VStack
         } //end ZStack
