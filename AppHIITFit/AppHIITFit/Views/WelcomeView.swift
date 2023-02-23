@@ -9,9 +9,26 @@ import SwiftUI
 
 struct WelcomeView: View {
     var body: some View {
-        HeaderView(titleText: "WellCome")
-    }
-}
+        ZStack {
+            VStack {
+                HeaderView(titleText: "WellCome")
+                Spacer()
+                Button("History") {}
+                    .padding(.bottom)
+            } //end VStack
+            VStack{
+                HStack{
+                    VStack(alignment: .leading){
+                        Text("Get fit")
+                            .font(.largeTitle)
+                        Text("with high intensity interval trainning")
+                            .font(.headline)
+                    } //end VStack
+                } //end HStack
+            } //end VStack
+        } //end ZStack
+    } //end body
+} //end struct WelcomeView
 
 struct WelcomeView_Previews: PreviewProvider {
     static var previews: some View {
