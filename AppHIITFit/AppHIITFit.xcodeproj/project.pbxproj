@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		883BAFF229A6EC1200F1CF46 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883BAFF129A6EC1200F1CF46 /* HeaderView.swift */; };
+		883BAFF429A7EA6100F1CF46 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883BAFF329A7EA6100F1CF46 /* RatingView.swift */; };
 		8852A4A829A5A25400A539E5 /* burpee.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8852A4A429A5A25400A539E5 /* burpee.mp4 */; };
 		8852A4A929A5A25400A539E5 /* squat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8852A4A529A5A25400A539E5 /* squat.mp4 */; };
 		8852A4AA29A5A25400A539E5 /* sun-salute.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8852A4A629A5A25400A539E5 /* sun-salute.mp4 */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		883BAFF129A6EC1200F1CF46 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		883BAFF329A7EA6100F1CF46 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		8852A4A429A5A25400A539E5 /* burpee.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = burpee.mp4; path = ../../../../../../Downloads/burpee.mp4; sourceTree = "<group>"; };
 		8852A4A529A5A25400A539E5 /* squat.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = squat.mp4; path = ../../../../../../Downloads/squat.mp4; sourceTree = "<group>"; };
 		8852A4A629A5A25400A539E5 /* sun-salute.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "sun-salute.mp4"; path = "../../../../../../Downloads/sun-salute.mp4"; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				8879147029A59DA800B6EE6C /* WelcomeView.swift */,
 				8879146429A5957700B6EE6C /* ContentView.swift */,
 				883BAFF129A6EC1200F1CF46 /* HeaderView.swift */,
+				883BAFF329A7EA6100F1CF46 /* RatingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				883BAFF229A6EC1200F1CF46 /* HeaderView.swift in Sources */,
 				8879147329A59DC100B6EE6C /* ExerciseView.swift in Sources */,
 				8879146529A5957700B6EE6C /* ContentView.swift in Sources */,
+				883BAFF429A7EA6100F1CF46 /* RatingView.swift in Sources */,
 				8879147129A59DA800B6EE6C /* WelcomeView.swift in Sources */,
 				8879146329A5957700B6EE6C /* AppHIITFitApp.swift in Sources */,
 			);
