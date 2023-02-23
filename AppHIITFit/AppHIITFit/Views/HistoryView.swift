@@ -15,30 +15,36 @@ struct HistoryView: View {
     let exercises2 = ["Squat", "Step Up", "Burpee"]
 
     var body: some View {
-        VStack{
-            Text("History")
-                .font(.title)
-                .padding()
-            Form {
-                Section(header: Text(today.formatted(as: "MMM dd"))
-                    .font(.headline))
-                {
-                    // Section content
-                    ForEach(exercises1, id: \.self) { exercise in
-                        Text(exercise)
+        ZStack (alignment: .topTrailing) {
+            Button(action: {}) {
+                Image(systemName: "xmark.circle")
+            } //end Button
+            .font(.title)
+            .padding(.trailing)
+            VStack{
+                Text("History")
+                    .font(.title)
+                    .padding()
+                Form {
+                    Section(header: Text(today.formatted(as: "MMM dd"))
+                        .font(.headline))
+                    {
+                        // Section content
+                        ForEach(exercises1, id: \.self) { exercise in
+                            Text(exercise)
+                        }
                     }
-                }
-                Section(header:Text(yesterday.formatted(as: "MMM dd"))
-                    .font(.headline))
-                {
-                    // Section content
-                    ForEach(exercises2, id: \.self) { exercise in
-                        Text(exercise)
+                    Section(header:Text(yesterday.formatted(as: "MMM dd"))
+                        .font(.headline))
+                    {
+                        // Section content
+                        ForEach(exercises2, id: \.self) { exercise in
+                            Text(exercise)
+                        }
                     }
-                }
-            } //end Form
-
-        } //end VStack
+                } //end Form
+            } //end VStack
+        } //end ZStack
     } //end var body
 } //end struct HistoryView
 
