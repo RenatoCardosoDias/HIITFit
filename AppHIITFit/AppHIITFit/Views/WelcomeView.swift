@@ -31,6 +31,12 @@ struct WelcomeView: View {
 //                        .frame(width: 240, height: 240)
 //                        .clipShape(Circle())
                 } //end HStack
+                Button(action: {} ){
+                    Text("Get Started")
+                    Image(systemName: "arrow.right.circle")
+                } //end Button
+                .font(.title2)
+                .padding()
             } //end VStack
         } //end ZStack
     } //end body
