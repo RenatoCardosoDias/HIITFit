@@ -32,6 +32,10 @@ struct HeaderView_Previews: PreviewProvider {
         Group {
             HeaderView(exerciseNames: "Squat")
                 .previewLayout(.sizeThatFits)
+            HeaderView(exerciseNames: "Squat")
+                .preferredColorScheme(.dark)
+                .environment(\.sizeCategory, .accessibilityLarge)
+                .previewLayout(.sizeThatFits)
         }
     }
 }
